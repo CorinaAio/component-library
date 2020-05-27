@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'component-library'
+import { layouts, components } from 'component-library'
+import { Builder } from "./components/Builder/Builder";
 import 'component-library/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Builder components={components} layouts={layouts} />
 }
 
 export default App

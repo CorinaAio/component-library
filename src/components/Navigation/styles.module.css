@@ -1,0 +1,35 @@
+.navigation {
+    width: 100%;
+    display: flex;
+}
+
+.aligncenter {
+    justify-content: center;
+}
+
+.alignleft {
+    justify-content: flex-start;
+}
+
+.alignright {
+    justify-content: flex-end;
+}
+
+.navigationItem {
+    padding: 20px 30px;
+    font-size: 16px;
+    position: relative;
+}
+
+.navigationItem, .navigationItem > * {
+    color: var(--text-color)
+}
+
+.navigationItem:last-child .navigationSeparator{
+    display: none;
+}
+
+.navigationSeparator {
+    margin-left: 30px;
+    position: absolute;
+}

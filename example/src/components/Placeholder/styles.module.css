@@ -1,0 +1,10 @@
+.placeholderWrapper {
+   border: none;
+   /* max-height: 100%; */
+   background: lavender;
+}
+
+.placeholderWrapper.emptyPlaceholder {
+    border: 1px dashed gray;
+    height: 100%;
+}

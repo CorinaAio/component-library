@@ -1,0 +1,14 @@
+.filterWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--text-color)
+}
+
+
+.alignvertical {
+    flex-direction: column;
+}
+
+.alignhorizontal {
+    flex-direction: row;
+}
